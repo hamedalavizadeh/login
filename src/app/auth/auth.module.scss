@@ -1,0 +1,92 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.card {
+  width: 100%;
+  max-width: 475px;
+  padding: 2.5rem;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.star {
+  color: #dd331d;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #18181b;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.logoContainer {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  text-align: center;
+  color: #3f3f46;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #e4e4e7;
+  margin: 1.5rem 0;
+}
+
+.inputLabel {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: #18181b;
+  font-size: 0.875rem;
+  direction: rtl;
+}
+
+.rememberRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0 1.5rem;
+}
+
+.signupLink {
+  text-align: center;
+  margin-top: 1.5rem;
+  color: #3f3f46;
+  font-size: 0.875rem;
+
+  a {
+    color: #7f56d9;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    padding: 1.5rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+}
